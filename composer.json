@@ -1,0 +1,17 @@
+{
+    "name": "coconut/symfony-validator-demo",
+    "authors": [
+        {
+            "name": "gococonut",
+            "email": "gococonu7@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/cache": "^1.10",
+        "symfony/validator": "^4.4",
+        "doctrine/annotations": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
